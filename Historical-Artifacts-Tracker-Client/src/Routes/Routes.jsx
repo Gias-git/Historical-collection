@@ -12,6 +12,8 @@ import MyArtifacts from '../Pages/MyProfile.jsx/MyArtifacts';
 import LikedArtifacts from '../Pages/MyProfile.jsx/LikedArtifacts';
 import axios, { Axios } from 'axios';
 import ArtifactDetails from '../Pages/ArtifactDetail/ArtifactDetails';
+import AboutUs from '../Pages/AboutUs/AboutUs';
+import ContactUs from '../Pages/ContactUs/ContactUs';
 
 const router = createBrowserRouter([
     {
@@ -61,6 +63,16 @@ const router = createBrowserRouter([
                     <PrivateRoutes>
                         <LikedArtifacts></LikedArtifacts>
                     </PrivateRoutes>
+            },
+            {
+                path: "aboutUs",
+                element: <AboutUs></AboutUs>
+                    
+            },
+            {
+                path: "contactUs",
+                element: <ContactUs></ContactUs>
+                    
             },
             {
                 path: "artifactDetails/:id",

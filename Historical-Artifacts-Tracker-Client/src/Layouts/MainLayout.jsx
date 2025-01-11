@@ -8,7 +8,7 @@ const MainLayout = () => {
         <div className='font-prata'>
 
             {/* navbar */}
-            <div className='bg-primaryColor'>
+            <div className='bg-primaryColor sticky top-0 z-50'>
                 
                 <Navbar></Navbar>
             </div>

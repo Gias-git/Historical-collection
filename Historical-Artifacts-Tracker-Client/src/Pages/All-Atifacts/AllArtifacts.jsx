@@ -24,7 +24,7 @@ const AllArtifacts = () => {
         setSearch(e.target.value)
     }
     return (
-        <div className='bg-tertiaryColor'>
+        <div className='bg-white'>
             <PageTitle title='All Artifacts'></PageTitle>
 
 

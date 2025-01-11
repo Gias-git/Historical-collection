@@ -29,7 +29,13 @@ const Navbar = () => {
 
         <li><NavLink to='/' className={({ isActive }) => isActive ? 'bg-primaryColor px-4 py-2 rounded-sm text-secondaryColor' : 'px-4 py-2  text-white '}>Home</NavLink> </li>
         <li><NavLink to='/allArtifacts' className={({ isActive }) => isActive ? 'bg-primaryColor px-4 py-2 rounded-sm text-secondaryColor' : 'px-4 py-2  text-white '}>All Artifacts</NavLink> </li>
-        <li><NavLink to='/addArtifacts' className={({ isActive }) => isActive ? 'bg-primaryColor px-4 py-2 rounded-sm text-secondaryColor' : 'px-4 py-2  text-white '}>Add Artifacts</NavLink> </li>
+        <li><NavLink to='/aboutUs' className={({ isActive }) => isActive ? 'bg-primaryColor px-4 py-2 rounded-sm text-secondaryColor' : 'px-4 py-2  text-white '}>About Us</NavLink> </li>
+        <li><NavLink to='/contactUs' className={({ isActive }) => isActive ? 'bg-primaryColor px-4 py-2 rounded-sm text-secondaryColor' : 'px-4 py-2  text-white '}>Contact Us</NavLink> </li>
+
+        {
+            user && <li><NavLink to='/addArtifacts' className={({ isActive }) => isActive ? 'bg-primaryColor px-4 py-2 rounded-sm text-secondaryColor' : 'px-4 py-2  text-white '}>Add Artifacts</NavLink> </li>
+        }
+        
 
 
 
