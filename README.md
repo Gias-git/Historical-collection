@@ -7,7 +7,7 @@
 - This is a Artifact related archive where user add there artifacts details documents
 
 # live url 
-- https://historical-artifacts-client.web.app
+- https://historical-artifacts-client.web.app/
 
 # key features
 - user can add there artifacts
